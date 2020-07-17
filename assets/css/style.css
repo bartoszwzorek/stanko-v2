@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 */
-
+/*
 body {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 300;
@@ -46,6 +46,25 @@ h1, h2, h3, h4, h5, h6 {
 .button {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+*/
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+
+.btn {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -116,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(255, 255, 255, 0.904);
+  background: rgb(255, 255, 255);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
 }
@@ -182,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   padding: 0 4px;
   letter-spacing: 0.4px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .nav-menu > ul > li > a:before {
@@ -584,7 +603,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -957,7 +976,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 50px;
+  right: 160px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: white;
