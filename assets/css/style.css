@@ -1,4 +1,4 @@
-/**
+/*
 * Template Name: Tempo - v2.1.0
 * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
 * Author: BootstrapMade.com
@@ -8,12 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/*
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-}
-*/
 
 a {
   color: #e43c5c;
@@ -23,34 +17,6 @@ a:hover {
   color: #ea6981;
   text-decoration: none;
 }
-
-/*
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
-}
-
-*/
-/*
-body {
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 300;
-  color: #252525;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  
-}
-
-.button {
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-*/
 
 body {
   font-family: 'Libre Baskerville', serif;
@@ -1071,6 +1037,12 @@ section {
   font-size: 14px;
 }
 
+/*  will sort it once I'll learn css*/
+
+.invis {
+  color: white;
+}
+
 .pricing .box ul li {
   padding-bottom: 16px;
 }
@@ -1124,7 +1096,42 @@ section {
   color: #110e0e;
 }
 
+/* ADDEDBY ME to sort out make up button without drop shadow*/
+
+.pricing .box-btn {
+  padding: 20px;
+
+  /* org line  background: #f9f9f9;  */
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.pricing .box-btn .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #e43c5c;
+  color: #e43c5c;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .box-btn .btn-buy:hover {
+  background: #e43c5c;
+  color: #fff;
+}
+
+
+
 /* ADDEDBY ME links in makijaz section*/
+
 
 .pricing .sh {
   
@@ -1323,6 +1330,13 @@ section {
 
 .contact .info p {
   padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #816a6e;
+}
+
+.contact .info a {
+  padding: 0 0 0 0px;
   margin-bottom: 0;
   font-size: 14px;
   color: #816a6e;
